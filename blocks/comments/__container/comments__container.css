@@ -1,0 +1,26 @@
+@import url('./__card/comments__card.css');
+
+.comments__container {
+    display: flex;
+    max-width: 1184px;
+    justify-content: space-between;
+    margin:71px auto 0;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .comments__container {
+        width: calc(100% - 382px);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .comments__container {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+

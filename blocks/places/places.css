@@ -1,0 +1,22 @@
+@import url('./places__card/places__card.css');
+
+.places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 102px;
+    max-width: 984px;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+    .places {
+        width: 100%;
+    }
+
+    .places__container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,30 @@
+.video__icon-play {
+    margin:0;
+    position: absolute;
+    top: 10%;  /* 30px calc(100% - 293px)*/
+    left: 5%; /* 30px calc(100% - 553px) */
+    z-index: 2;
+}
+
+/* @media screen and (max-width:1024px) {
+
+
+}
+
+@media screen and (max-width:768px) {
+  .video__icon-play {
+      top: 25px;
+  }  
+}
+
+@media screen and (max-width:375px) {
+  .video__icon-play {
+    top: 16px;
+    left: 16px;
+  }
+    
+}
+
+@media screen and (min-width:320px) {
+    
+} */

@@ -1,0 +1,9 @@
+@import url('./__link/barentsburg__link.css');
+@import url('./__url-heading/barentsburg__url-heading.css');
+
+.barentsburg__url-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 0;
+    width: 282px;
+}

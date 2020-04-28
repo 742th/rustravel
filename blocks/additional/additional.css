@@ -1,0 +1,8 @@
+@import url('./__container/additional__container.css');
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 102px;
+}

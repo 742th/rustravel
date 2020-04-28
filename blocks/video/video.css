@@ -1,0 +1,10 @@
+@import url('./__container/video__container.css');
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 102px;
+    width: calc(100% - 32px);  /* 82.22% */
+}
+

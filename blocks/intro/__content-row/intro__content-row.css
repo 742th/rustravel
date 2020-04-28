@@ -1,0 +1,16 @@
+@import url('./__text/intro__content-row-text.css');
+
+
+.intro__content-row {
+    display: flex;
+    max-width: 984px;
+    /* justify-content: space-between; */
+    margin: 0;
+}
+
+
+/* @media screen and (max-width:350px) {
+    .intro__content-row {
+        width: 95%;
+    }
+} */

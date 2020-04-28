@@ -1,0 +1,34 @@
+@import url('./__image/places__image.css');
+@import url('./__paragraph/places__paragraph.css');
+@import url('./__title/places__title.css');
+@import url('./__website/places__website.css');
+
+.places__card {
+    display: flex;
+    max-width: 984px;
+    margin:0 auto 72px;
+    flex-wrap: wrap;
+
+}
+
+.places__card:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:942px) {
+    .places__card{
+        max-width:calc(100% - 62px);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .places__card {
+        max-width:calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width:375px) {
+    .places__card {
+        max-width:100%;
+    }
+}

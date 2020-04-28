@@ -1,0 +1,18 @@
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__image/cover__image.css');
+@import url('./__rect/cover__rect.css');
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1184px;
+    margin: 0 auto 82px;
+    position: relative;
+    
+}
+
+.cover:hover {
+    opacity: 0.8;
+}

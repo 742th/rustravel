@@ -1,0 +1,32 @@
+@import url('./__link/footer__link.css');
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto 0 0;
+}
+
+
+@media screen and (max-width:800px) {
+    .footer__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer__container {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .footer__container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .footer__container {
+        flex-wrap: wrap;
+    }
+}

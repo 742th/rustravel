@@ -1,0 +1,18 @@
+.lead__group {
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: calc( 100% - 78%);   /* 510px   calc450px*/
+    left: calc(100% - 95% ) ; 
+    width: calc(100% - 64px);
+    max-width: 937px; /* 30px  calc955px*/  
+}
+
+@media screen and (max-width:425px) {
+    .lead__group {
+        width: calc(100% - 32px);
+        top: calc( 100% - 79%);
+        
+    }
+
+}

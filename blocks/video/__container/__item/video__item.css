@@ -1,0 +1,32 @@
+@import url('./__icon_play/video__icon-play.css');
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
+@import url('./__duration/video__duration.css');
+@import url('./__item-bg/video__item-bg.css');
+@import url('./__item-rect/video__item-rect.css');
+/* @import url('./__description/video__description.css'); */
+
+
+.video__item {
+    position: relative;
+    color: #fff;
+    width: calc((100% - 20px)/ 2);
+}
+
+.video__item:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width:700px) {
+    .video__item {
+        width: 100%;
+    
+    }
+}
+
+@media screen and (max-width:375px) {
+    .video__item {
+        width: 100%;
+        /* height: 200px; */
+    }
+}

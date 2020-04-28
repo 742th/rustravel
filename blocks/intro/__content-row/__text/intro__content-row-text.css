@@ -1,0 +1,28 @@
+@import url(./__content-span/intro__content-span.css);
+
+.intro__content-row-text:first-child {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin:0;
+    max-width: 683px;
+}
+
+/* .intro__content-row-text:last-child {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    margin:0;
+    max-width: 200px;
+} */
+
+@media screen and (max-width:375px) {
+    .intro__content-row-text:first-child {
+        font-size: 16px;
+        line-height: 27px;   
+    }
+}

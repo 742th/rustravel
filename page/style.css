@@ -1,0 +1,94 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/inter.css'); /* podkluchil fonts */
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/video/video.css');
+/* @import url('../blocks/additional/additional.css'); */
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+/* @import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css'); */
+@import url('../blocks/footer/footer.css');
+
+
+.page {
+    width: 100%;
+    /* max-height: 10226px; */
+    background-color: #2A2C2F;
+    margin:auto;
+    padding-top:30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-title {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.content-subtitle {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    margin:48px auto 0;
+    max-width: 640px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1024px) {
+
+
+}
+
+@media screen and (max-width:768px) {
+    .content-title {
+        font-size: 42px;
+        line-height: 46px;
+        width: calc(100% - 32px);
+    }
+    .content-subtitle {
+        width: calc(100% - 32px);
+    }
+}
+
+@media screen and (max-width:375px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    .content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .content-title {
+        width: 100%;
+    }
+
+    .content-subtitle {
+        width: 100%;
+    }
+    
+}
+
+/* stepanov alexander */

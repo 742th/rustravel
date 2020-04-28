@@ -1,0 +1,11 @@
+.video__item-rect {
+    width: 583px;
+    height: 323px;
+    opacity: 0.5;
+    border-radius: 5px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    background: #000000;
+    z-index: 1;
+}

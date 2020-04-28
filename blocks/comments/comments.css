@@ -1,0 +1,10 @@
+@import url('./__container/comments__container.css');
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 102px;
+    width: calc(100% - 62px);
+}
+
